@@ -1,0 +1,43 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Start-Shoot-R"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Shoot-Intake-R"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Intake-IntakeEnd-R"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "IntakeEnd-Shoot-R"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Shoot-Hang-R"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}
